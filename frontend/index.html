@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Book List Manager</title>
+    </head>
+    <body>
+        <h1>Book List Manager</h1>
+
+        <main>
+            <div>
+                <input
+                    type="text"
+                    class="formField"
+                    id="bookName"
+                    placeholder="Book Name"
+                />
+                <input
+                    type="text"
+                    class="formField"
+                    id="authorName"
+                    placeholder="Author Name"
+                />
+                <button class="addBookBtn" type="button">Add Book</button>
+            </div>
+
+            <div class="bookListContainer">
+                <ul class="bookList"></ul>
+            </div>
+        </main>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
